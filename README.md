@@ -34,5 +34,5 @@ npm run preview
 ## Pages
 
 - **Home** — brand hero, short bio, contact
-- **Portfolio** — placeholder project slots (template only)
+- **Portfolio** — real project entries (HCC Color Theory App, game jam art, ML training, HeadSynk UI) with GitHub links
 - **Resume** — opens `/resume.pdf` in a new tab (`target="_blank"` + `rel="noopener noreferrer"`)

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Game jam art preview">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b3140"/>
+      <stop offset="55%" stop-color="#355a4a"/>
+      <stop offset="100%" stop-color="#7a9a58"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#sky)"/>
+  <circle cx="760" cy="120" r="54" fill="#f0d58a" opacity="0.9"/>
+  <!-- stylized terrain / art direction -->
+  <path d="M0 460 C120 400 220 500 340 440 C460 380 520 500 660 430 C780 380 860 470 960 430 L960 640 L0 640 Z" fill="#2c4634"/>
+  <path d="M0 520 C160 480 280 560 420 510 C560 460 680 560 820 500 C900 470 940 520 960 510 L960 640 L0 640 Z" fill="#203528"/>
+  <!-- character silhouette suggestion -->
+  <ellipse cx="300" cy="390" rx="34" ry="46" fill="#d8c3a0"/>
+  <path d="M270 430 C280 500 320 500 330 430 Z" fill="#3a2a1e"/>
+  <rect x="286" y="360" width="28" height="40" rx="8" fill="#4f8f7a"/>
+  <!-- props -->
+  <rect x="560" y="360" width="70" height="90" rx="8" fill="#8b5a2b"/>
+  <polygon points="560,360 595,300 630,360" fill="#6b4423"/>
+  <text x="48" y="72" font-family="Georgia, serif" font-size="34" fill="#f2efe8">Game Jam — Art</text>
+  <text x="48" y="112" font-family="Segoe UI, sans-serif" font-size="18" fill="#c9d7cc">Environment &amp; character art contribution</text>
+</svg>

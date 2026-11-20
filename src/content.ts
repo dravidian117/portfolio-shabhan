@@ -1,4 +1,4 @@
-/** Site content — edit here to update bio, photo, contact, and project slots. */
+/** Site content — edit here to update bio, photo, contact, and projects. */
 export const site = {
   name: 'Shabhan',
   fullName: 'Shabhan Andrew George',
@@ -6,11 +6,11 @@ export const site = {
   tagline:
     'Digital content creator, UI/UX & graphic designer, and videographer crafting engaging visual stories.',
   bio: [
-    'I have a year’s experience helping organize and coordinate student events at NMSU Alamogordo—primarily through marketing materials that stay creative, engaging, and useful for students discovering campus resources.',
-    'As a freelance videographer with two years in industry, I work with people from all walks of life, with a focus on food-and-beverage videography, editing, and the creative process behind the frame. I also prototype menus, branding, and digital experiences that extend that aesthetic into UI/UX and graphic design.',
+    'I design interfaces and visual systems with a focus on clarity, accessibility, and craft—spanning UI/UX coursework (including HCC), graphic design, and digital content for campus and freelance clients.',
+    'At NMSU Alamogordo I help coordinate student events through marketing materials that stay creative and useful. Alongside that, I bring videography and editing experience (especially food & beverage) plus contributions across color-theory tooling, game art, ML training, and small app interfaces.',
   ],
   expertiseLabel: 'Area of expertise',
-  expertise: 'Digital content · UI/UX & graphic design · Videography · 3D animation',
+  expertise: 'UI/UX & graphic design · Digital content · Videography · 3D / game art',
   portrait: {
     src: '/portrait.png',
     alt: 'Portrait of Shabhan Andrew George in a blue denim shirt',
@@ -45,28 +45,56 @@ export const site = {
   },
   projects: [
     {
-      id: '1',
-      title: 'Logo animation & brand motion',
+      id: 'hcc-color-theory',
+      title: 'HCC — Color Theory App',
+      role: 'Home page, navigation shell & UX principles',
       blurb:
-        'Basic SVG animation for minimalist branding across website and app design. Replace or expand with a case study when ready.',
-      tags: ['Motion', 'Branding'],
-      href: 'https://www.instagram.com/p/CMbp0MFl_QRz7MGhHzj9XGpHKcJMSsuRtHHYCs0/',
+        'Public HCC project: a Flet desktop app for exploring color theory. I shaped the Home experience and top navigation so tools stay discoverable while a persistent palette sidebar keeps context across Color Wheel, Upload, Sandbox, and Accessibility—applying progressive disclosure, clear wayfinding, and feedback for save/load flows.',
+      tags: ['HCC', 'UI/UX', 'Flet'],
+      href: 'https://github.com/angelml1/-Color_Theory_App',
+      image: {
+        src: '/projects/color-theory.svg',
+        alt: 'Color Theory App home and navigation mock with color wheel and palette sidebar',
+      },
     },
     {
-      id: '2',
-      title: 'Menu website mock redesign',
+      id: 'game-jam',
+      title: 'DGD Game Jam — Group 1',
+      role: 'Art contribution',
       blurb:
-        'Prototypes of online menus and branding ideas for popups and venues, informed by guerrilla interviews with floor staff. Template slot — flesh out details as needed.',
-      tags: ['UI/UX', 'Research'],
-      href: '#',
+        'Course game jam at NMSU. I owned the art side—visual direction, assets, and polish that support the jam prototype—while collaborating with the team on a short production cycle.',
+      tags: ['Game jam', 'Art', 'CS371'],
+      href: 'https://github.com/NMSU-CS-CS371/dgd-game-jam-1-group-1',
+      image: {
+        src: '/projects/game-jam.svg',
+        alt: 'Stylized game-jam art preview with character and landscape',
+      },
     },
     {
-      id: '3',
-      title: 'Brand identity & social ads',
+      id: 'project-abd',
+      title: 'project-abd',
+      role: 'Machine learning training',
       blurb:
-        'Logo, color palette, business definition, namecard design, and social media ads. Placeholder project slot for portfolio write-ups.',
-      tags: ['Identity', 'Social'],
-      href: '#',
+        'Team ML project for NMSU CSCI 4425/5425. I contributed to the training side—preparing runs, iterating on model training, and helping the pipeline move from experiment to usable results.',
+      tags: ['ML', 'Training', 'Python'],
+      href: 'https://github.com/NMSU-CSCI-4425-5425/project-abd',
+      image: {
+        src: '/projects/project-abd.svg',
+        alt: 'Abstract neural network and training chart illustration',
+      },
+    },
+    {
+      id: 'headsynk',
+      title: 'HeadSynk',
+      role: 'App interface',
+      blurb:
+        'CS 153 wellness habit tracker (CustomTkinter). I worked on the small-app interface for mood, food, water, sleep, and journal check-ins—keeping panels readable and the daily flow easy to scan.',
+      tags: ['UI', 'Python', 'CustomTkinter'],
+      href: 'https://github.com/Smooken-Development/C-S-153-HeadSynk-Group-Project',
+      image: {
+        src: '/projects/headsynk.svg',
+        alt: 'HeadSynk habit-tracker interface mock with sidebar and check-in panels',
+      },
     },
   ],
 } as const

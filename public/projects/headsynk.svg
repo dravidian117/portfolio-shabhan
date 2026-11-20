@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="HeadSynk app interface preview">
+  <rect width="960" height="640" fill="#12181a"/>
+  <rect x="70" y="50" width="820" height="540" rx="22" fill="#1b2428" stroke="#2c3a40"/>
+  <!-- sidebar -->
+  <rect x="70" y="50" width="210" height="540" rx="22" fill="#151c1f"/>
+  <rect x="250" y="50" width="30" height="540" fill="#151c1f"/>
+  <text x="100" y="110" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#e8f0ea">HeadSynk</text>
+  <g font-family="Segoe UI, sans-serif" font-size="15" fill="#9bb0a6">
+    <text x="100" y="170">Mood</text>
+    <text x="100" y="210">Food</text>
+    <text x="100" y="250">Water</text>
+    <text x="100" y="290">Sleep</text>
+    <text x="100" y="330">Journal</text>
+  </g>
+  <rect x="92" y="152" width="150" height="30" rx="8" fill="#2a3d36"/>
+  <!-- main panel -->
+  <text x="320" y="120" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#e8f0ea">Today’s check-in</text>
+  <rect x="320" y="160" width="500" height="90" rx="14" fill="#222c31"/>
+  <text x="344" y="212" font-family="Segoe UI, sans-serif" font-size="18" fill="#c5d4c8">Mood · 1 — 2 — 3 — 4 — 5</text>
+  <rect x="320" y="280" width="230" height="120" rx="14" fill="#222c31"/>
+  <rect x="590" y="280" width="230" height="120" rx="14" fill="#222c31"/>
+  <text x="344" y="330" font-family="Segoe UI, sans-serif" font-size="16" fill="#7eb89f">Water 1.8 / 2.7 L</text>
+  <text x="614" y="330" font-family="Segoe UI, sans-serif" font-size="16" fill="#d4a35c">Sleep 7.5 hrs</text>
+  <rect x="320" y="430" width="500" height="100" rx="14" fill="#222c31"/>
+  <text x="344" y="488" font-family="Segoe UI, sans-serif" font-size="16" fill="#9bb0a6">Journal entry…</text>
+</svg>
