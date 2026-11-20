@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder portrait illustration</title>
+  <desc id="desc">Abstract illustrated silhouette, not a photograph</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a2e28"/>
+      <stop offset="55%" stop-color="#243d34"/>
+      <stop offset="100%" stop-color="#3a5c4c"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="30%" y1="20%" x2="80%" y2="90%">
+      <stop offset="0%" stop-color="#d7c4a8"/>
+      <stop offset="100%" stop-color="#b89772"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d4a35c" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d4a35c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#bg)"/>
+  <ellipse cx="320" cy="280" rx="260" ry="220" fill="url(#glow)"/>
+  <!-- shoulders -->
+  <path d="M80 800 C140 560 220 500 320 500 C420 500 500 560 560 800 Z" fill="#0f1a16"/>
+  <path d="M130 800 C180 600 240 540 320 540 C400 540 460 600 510 800 Z" fill="#16241e"/>
+  <!-- neck -->
+  <path d="M275 420 C290 470 350 470 365 420 L350 500 C340 520 300 520 290 500 Z" fill="url(#skin)"/>
+  <!-- head -->
+  <ellipse cx="320" cy="310" rx="118" ry="140" fill="url(#skin)"/>
+  <!-- hair -->
+  <path d="M200 300 C200 180 250 140 320 135 C390 140 440 180 440 300 C430 230 400 190 320 185 C240 190 210 230 200 300 Z" fill="#1a1510"/>
+  <path d="M205 280 C210 210 255 165 320 160 C385 165 430 210 435 280 C420 220 380 195 320 192 C260 195 220 220 205 280 Z" fill="#2a2218"/>
+  <!-- soft features suggestion -->
+  <ellipse cx="280" cy="320" rx="14" ry="8" fill="#8a6b4a" opacity="0.35"/>
+  <ellipse cx="360" cy="320" rx="14" ry="8" fill="#8a6b4a" opacity="0.35"/>
+  <path d="M300 380 Q320 395 340 380" fill="none" stroke="#8a6b4a" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <!-- accent mark -->
+  <circle cx="520" cy="140" r="28" fill="none" stroke="#d4a35c" stroke-width="2" opacity="0.7"/>
+  <circle cx="520" cy="140" r="6" fill="#d4a35c" opacity="0.85"/>
+</svg>
