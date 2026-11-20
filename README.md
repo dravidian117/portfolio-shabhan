@@ -27,8 +27,8 @@ npm run preview
 | What | Where |
 | --- | --- |
 | Name, bio, expertise, contact, project slots | `src/content.ts` |
-| Portrait / photo | `public/portrait.svg` (or swap for a `.jpg`/`.png` and update `portrait.src`) |
-| Resume / CV PDF | `public/resume.pdf` — replace with your real CV; the nav/CTA link already opens it in a new tab |
+| Portrait / photo | `public/portrait.png` (update `portrait.src` / caption in `src/content.ts` if you change it) |
+| Resume / CV PDF | `public/resume.pdf` — currently the uploaded NMSU resume; swap the file to update |
 | Colors & typography | `src/index.css` (`:root` variables) |
 
 ## Pages

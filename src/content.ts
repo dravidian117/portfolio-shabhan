@@ -12,10 +12,9 @@ export const site = {
   expertiseLabel: 'Area of expertise',
   expertise: 'Digital content · UI/UX & graphic design · Videography · 3D animation',
   portrait: {
-    src: '/portrait.svg',
-    alt: 'Placeholder portrait illustration of Shabhan Andrew George',
-    caption:
-      'Placeholder illustration — not a photograph of Shabhan. Replace public/portrait.svg with a real photo when ready.',
+    src: '/portrait.png',
+    alt: 'Portrait of Shabhan Andrew George in a blue denim shirt',
+    caption: 'Shabhan Andrew George — digital content creator and designer.',
   },
   contact: {
     email: 'shabhan@nmsu.edu',
